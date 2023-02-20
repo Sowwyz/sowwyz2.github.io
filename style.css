@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0%;
+    background: url(https://cdn.discordapp.com/attachments/1075473090747842731/1077255070816682076/wallhaven-39xyjv.png)no-repeat;
+    color: white;
+    background-size: cover;
+}
+
+.box {
+    width: 450px;
+    background-color: rgb(54 54 54);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: #fff;
+    font-family: Calibri;
+    transform: scale(0.9);
+}
+
+    .box img {
+        width: 300px;
+        height: 300px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+        .box img:hover {
+            transform: scale(0.9);
+        }
+
+    .box h1 {
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: bold;
+    }
+
+    .box h5 {
+        font-size: 20px;
+        font-weight: 100;
+        letter-spacing: 3px;
+    }
+
+    .box p {
+        text-align: justify;
+    }
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+    .box li a {
+        color: white;
+        font-size: 50px;
+        transition: all ease-in-out 250ms;
+    }
+
+        .box li a:hover {
+            color: #b9b9b9;
+        }
